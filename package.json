@@ -1,7 +1,7 @@
 {
-  "name": "ts-esm",
-  "version": "1.0.0",
-  "description": "ts-esm template",
+  "name": "snoa",
+  "version": "0.0.0-beta.0",
+  "description": "SNOA - String, Number, Object and Array",
   "type": "module",
   "exports": "./dist/index.js",
   "types": "dist",
@@ -11,13 +11,13 @@
   ],
   "keywords": [],
   "license": "MIT",
-  "homepage": "https://github.com/crashmax-dev/ts-esm#readme",
+  "homepage": "https://github.com/crashmax-dev/snoa#readme",
   "bugs": {
-    "url": "https://github.com/crashmax-dev/ts-esm/issues"
+    "url": "https://github.com/crashmax-dev/snoa/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crashmax-dev/ts-esm.git"
+    "url": "git+https://github.com/crashmax-dev/snoa.git"
   },
   "scripts": {
     "start": "npm run build && cross-env NODE_ENV=production node dist/index.js",
@@ -46,8 +46,5 @@
   },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.0"
   }
 }

@@ -1,8 +1,4 @@
 import test from 'ava'
-import FooBar from '../src/index.js'
+import { Snoa } from '../src/index.js'
 
-const foobar = new FooBar('foo', 233)
-
-test('foo bar', (to) => {
-  to.is(foobar.foobar, 'foo 233')
-})
+test('snoa', (t) => t.pass())
